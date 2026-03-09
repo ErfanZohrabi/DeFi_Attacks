@@ -1,0 +1,182 @@
+incident_id,date,attack_type,protocol_type,protocol_name,loss_usd,attacker_capital_required,atomic_transaction,flash_loan_used,complexity,root_cause,exploit_chain_length,protocols_involved,time_to_detection_hours,recovered,roi_percent,year,month
+1,2019-10-08,Price Oracle Manipulation,Derivatives,PancakeSwap,39690.6,1046.22,False,False,Low,Economic Design Flaw,1,1,1.83,False,3690.1873531827123,2019,10
+2,2018-01-15,Flash Loan Attack,Yield Aggregator,Indexed,37185.36,9832.31,True,True,Critical,Insufficient Validation,6,6,0.91,True,278.16727022742094,2018,1
+3,2021-09-20,Price Oracle Manipulation,Yield Aggregator,BadgerDAO,118082.1,29712.59,True,True,Low,Reentrancy Vulnerability,3,3,0.86,False,297.40435268845,2021,9
+4,2018-12-16,Liquidation Exploit,Yield Aggregator,MakerDAO,71560.48,34529.89,False,False,Medium,Composability Risk,2,2,397.03,False,107.23902569554389,2018,12
+5,2018-04-12,Flash Loan Attack,Lending Protocol,Compound,291304.04,7290.07,True,True,Low,Insufficient Validation,3,3,0.24,False,3895.3674837849585,2018,4
+6,2020-04-10,Governance Attack,Derivatives,Balancer,16672.43,4376.46,True,False,Critical,Price Oracle Vulnerability,1,1,1.13,False,280.8928008479803,2020,4
+7,2021-12-07,Flash Loan Attack,Synthetic Assets,bZx,6815.32,6044.17,True,True,Medium,Insufficient Validation,4,4,1.39,False,12.75646507873227,2021,12
+8,2019-12-25,Price Oracle Manipulation,Yield Aggregator,PancakeSwap,118638.24,13444.84,False,True,High,Front-running Susceptibility,5,5,0.98,False,782.3490388105168,2019,12
+9,2018-04-22,Price Oracle Manipulation,Derivatives,Cream,139617.74,11677.0,True,False,High,Economic Design Flaw,1,1,2.0,False,1095.570645658503,2018,4
+10,2019-02-16,MEV Attack,Insurance,Aave,561346.02,18775.6,True,False,Medium,Governance Weakness,1,1,1.27,False,2889.609513969516,2019,2
+11,2020-11-12,MEV Attack,Derivatives,SushiSwap,514295.56,81519.44,True,False,High,Reentrancy Vulnerability,1,1,1.38,False,530.8805006449916,2020,11
+12,2018-11-15,Price Oracle Manipulation,Yield Aggregator,Indexed,1975.89,73.11,False,False,High,Front-running Susceptibility,1,1,9.75,False,2567.507758737013,2018,11
+13,2019-07-26,MEV Attack,Derivatives,Alpha Homora,34187.27,392.05,True,False,Medium,Governance Weakness,3,3,1.31,False,8598.198702455156,2019,7
+14,2019-02-04,MEV Attack,Synthetic Assets,Uniswap,4041.45,150.2,True,False,Medium,Governance Weakness,2,2,0.79,False,2573.5780423280426,2019,2
+15,2019-12-11,Reentrancy Attack,Stablecoin,Indexed,55776.48,26393.78,False,False,Critical,Access Control Issue,1,1,15.24,False,111.32011708375673,2019,12
+16,2019-11-24,Price Oracle Manipulation,Derivatives,Inverse Finance,10797.98,2287.54,False,True,High,Governance Weakness,3,3,2.05,False,371.87202321130496,2019,11
+17,2018-07-11,Price Oracle Manipulation,DEX,Uniswap,7388.88,248.73,True,False,Low,Composability Risk,2,2,1.59,False,2859.147879710087,2018,7
+18,2019-01-27,Flash Loan Attack,Lending Protocol,Alpha Homora,592497.66,1270.61,True,True,Critical,Economic Design Flaw,5,5,1.69,False,46494.36934280165,2019,1
+19,2020-08-11,Logic Error,DEX,Rari Capital,248280.33,61458.6,True,False,Low,Economic Design Flaw,2,2,1.67,False,303.97485502671674,2020,8
+20,2018-08-09,MEV Attack,Bridge,Harvest,541426.1,73820.82,True,False,Low,Access Control Issue,1,1,0.25,False,633.4242098068023,2018,8
+21,2019-08-19,Price Oracle Manipulation,Bridge,Indexed,8902.04,1288.62,False,True,Critical,Reentrancy Vulnerability,3,3,7.41,False,590.3615018377508,2019,8
+22,2019-08-10,Access Control Violation,Bridge,Fortress,27509.11,9338.79,False,False,Medium,Economic Design Flaw,3,3,15.68,False,194.5474148776364,2019,8
+23,2020-06-13,MEV Attack,Synthetic Assets,Alpha Homora,3290.93,683.42,True,False,Medium,Insufficient Validation,2,2,1.4,False,380.98097659331984,2020,6
+24,2019-04-29,Price Oracle Manipulation,Lending Protocol,Uniswap,149716.28,16294.08,False,False,Medium,Insufficient Validation,1,1,3.04,False,818.788247741036,2019,4
+25,2021-05-07,Price Oracle Manipulation,Derivatives,Alpha Homora,2165285.62,446618.9,False,False,Low,Economic Design Flaw,3,3,6.13,False,384.8164221970405,2021,5
+26,2018-05-13,Flash Loan Attack,Stablecoin,Venus,334536.03,9686.52,True,True,Critical,Price Oracle Vulnerability,6,6,1.68,False,3353.2783416189077,2018,5
+27,2019-03-27,Reentrancy Attack,Insurance,Rari Capital,15513.18,6921.39,True,False,Critical,Reentrancy Vulnerability,2,2,1.42,False,124.11594839354616,2019,3
+28,2020-12-18,Liquidation Exploit,Stablecoin,Synthetix,79056.39,33223.9,False,False,Medium,Front-running Susceptibility,3,3,23.39,False,137.94620901793533,2020,12
+29,2019-10-23,Logic Error,Stablecoin,BadgerDAO,44821.4,12791.76,False,False,High,Price Oracle Vulnerability,1,1,8.02,False,250.37317982984123,2019,10
+30,2020-10-27,Flash Loan Attack,Insurance,Balancer,44094.33,3882.68,True,True,Medium,Economic Design Flaw,2,2,0.53,False,1035.4007024265647,2020,10
+31,2018-10-21,Price Oracle Manipulation,Stablecoin,MakerDAO,108997.86,30819.6,False,False,Critical,Composability Risk,2,2,6.62,False,253.65586653082684,2018,10
+32,2018-12-30,Logic Error,Derivatives,Alpha Homora,4247.06,1005.15,True,False,Low,Governance Weakness,1,1,1.07,False,322.2094121154898,2018,12
+33,2019-02-09,Liquidation Exploit,Stablecoin,MakerDAO,68043.07,30292.73,False,True,Medium,Insufficient Validation,3,3,2.7,False,124.61436739549738,2019,2
+34,2020-05-01,Logic Error,Insurance,Alpha Homora,310325.17,113838.41,True,False,Low,Smart Contract Logic Error,2,2,1.22,False,172.5999458359807,2020,5
+35,2020-03-16,Reentrancy Attack,Synthetic Assets,Venus,11151.23,1295.58,False,False,Medium,Reentrancy Vulnerability,1,1,7.32,False,760.1266408551728,2020,3
+36,2019-09-08,Flash Loan Attack,Synthetic Assets,PancakeSwap,19673.83,1818.8,True,True,Critical,Access Control Issue,4,4,1.34,False,981.153423453127,2019,9
+37,2019-04-08,Flash Loan Attack,Lending Protocol,Balancer,419612.82,393.12,True,True,High,Composability Risk,7,7,0.32,False,106368.54257586521,2019,4
+38,2019-04-07,Access Control Violation,Insurance,MakerDAO,23235.89,1545.36,True,False,High,Insufficient Validation,2,2,1.5,True,1402.6830750924753,2019,4
+39,2018-10-07,Front-running,Yield Aggregator,Venus,24659.04,3820.85,True,False,Medium,Access Control Issue,1,1,1.0,True,545.2383008229,2018,10
+40,2018-05-28,Flash Loan Attack,Lending Protocol,Curve,49432.58,5707.78,True,True,Critical,Economic Design Flaw,2,2,0.48,True,765.921965814062,2018,5
+41,2019-03-31,Price Oracle Manipulation,Synthetic Assets,Cream,28165.71,8305.78,True,True,Critical,Reentrancy Vulnerability,7,7,1.95,False,239.08096759514515,2019,3
+42,2019-07-23,Reentrancy Attack,Stablecoin,Balancer,76705.39,28375.52,True,False,High,Price Oracle Vulnerability,2,2,1.54,True,170.3164094822057,2019,7
+43,2019-11-23,Liquidation Exploit,Bridge,Venus,56383.06,5048.58,True,True,Low,Composability Risk,7,7,0.83,False,1016.6089060872389,2019,11
+44,2018-07-18,Price Oracle Manipulation,Derivatives,Compound,8901.92,2262.25,True,False,Medium,Access Control Issue,1,1,0.38,False,293.3688280128135,2018,7
+45,2019-10-03,Front-running,Bridge,bZx,63696.61,15760.78,True,False,Medium,Insufficient Validation,2,2,1.09,False,304.1270084977712,2019,10
+46,2021-10-01,Smart Contract Bug,Stablecoin,Compound,122471.19,49584.76,True,False,Medium,Economic Design Flaw,3,3,1.49,True,146.99064812155746,2021,10
+47,2020-03-22,Smart Contract Bug,Synthetic Assets,BadgerDAO,589467.56,69240.53,True,False,High,Smart Contract Logic Error,3,3,1.29,False,751.3222628096173,2020,3
+48,2019-05-01,Access Control Violation,Insurance,Yearn,3405.06,1621.75,True,False,Medium,Smart Contract Logic Error,1,1,0.52,False,109.89431520566939,2019,5
+49,2018-08-28,Flash Loan Attack,Synthetic Assets,Venus,8594.45,1863.21,True,True,High,Governance Weakness,4,4,1.19,False,361.07734643629203,2018,8
+50,2018-08-26,Governance Attack,Synthetic Assets,Fortress,9189.34,1891.68,False,False,Critical,Price Oracle Vulnerability,3,3,14.99,False,385.57283851469873,2018,8
+51,2018-03-29,Price Oracle Manipulation,DEX,Alpha Homora,7728.55,410.48,False,True,Critical,Price Oracle Vulnerability,2,2,2.0,False,1778.4752600369397,2018,3
+52,2018-05-28,Liquidation Exploit,Bridge,Harvest,19455.83,7224.47,False,False,Medium,Governance Weakness,3,3,4.42,False,169.2811678686646,2018,5
+53,2019-10-10,Liquidation Exploit,Synthetic Assets,Inverse Finance,6858.71,2045.78,True,True,Medium,Composability Risk,7,7,0.69,False,235.1464251165245,2019,10
+54,2019-01-13,Logic Error,Bridge,MakerDAO,4352.06,791.71,False,False,Low,Insufficient Validation,1,1,18.61,False,449.13650641470394,2019,1
+55,2018-02-26,Governance Attack,DEX,Aave,101161.09,40284.93,False,False,Critical,Access Control Issue,2,2,33.9,False,151.11022632467464,2018,2
+56,2020-01-28,Flash Loan Attack,Insurance,Cream,8653.49,8349.3,False,True,High,Smart Contract Logic Error,6,6,3.95,True,3.6428631306659707,2020,1
+57,2018-04-05,Smart Contract Bug,Synthetic Assets,Venus,404892.22,65928.11,False,False,Medium,Price Oracle Vulnerability,2,2,1.87,False,514.134211731358,2018,4
+58,2018-08-10,Price Oracle Manipulation,Stablecoin,SushiSwap,129961.57,35804.28,False,False,Critical,Insufficient Validation,3,3,45.21,False,262.9704054820965,2018,8
+59,2019-11-21,Price Oracle Manipulation,Yield Aggregator,PancakeSwap,38633.6,5699.57,False,True,Medium,Composability Risk,3,3,1.53,False,577.7322267773224,2019,11
+60,2020-06-03,Front-running,Lending Protocol,BadgerDAO,8258880.06,3104071.15,True,False,Critical,Smart Contract Logic Error,1,1,1.3,False,166.06601460600717,2020,6
+61,2020-01-07,Logic Error,DEX,bZx,1430489.47,520468.03,True,False,Critical,Smart Contract Logic Error,3,3,1.89,False,174.8464149730484,2020,1
+62,2019-04-29,Flash Loan Attack,Synthetic Assets,Uniswap,24822.03,4410.32,True,True,High,Composability Risk,2,2,1.08,False,462.71206804312544,2019,4
+63,2019-09-17,Reentrancy Attack,DEX,Synthetix,137965.15,31851.86,False,False,High,Composability Risk,3,3,2.65,False,333.13583144496283,2019,9
+64,2019-06-05,Flash Loan Attack,Stablecoin,MakerDAO,59922.61,2772.66,False,True,Low,Price Oracle Vulnerability,2,2,83.18,False,2060.4526149564113,2019,6
+65,2020-03-10,MEV Attack,Lending Protocol,bZx,192230.84,35801.78,True,False,Medium,Smart Contract Logic Error,1,1,0.45,False,436.9187532364805,2020,3
+66,2019-12-20,Access Control Violation,Derivatives,Fortress,137569.58,31408.36,False,False,High,Composability Risk,3,3,3.23,False,337.9923054783669,2019,12
+67,2019-02-21,Access Control Violation,Derivatives,Cream,17784120.49,7709186.64,True,False,Medium,Front-running Susceptibility,1,1,1.47,False,130.68736059458527,2019,2
+68,2019-02-06,Flash Loan Attack,Yield Aggregator,Curve,169952.06,9065.14,True,True,High,Composability Risk,4,4,1.73,False,1774.591171104792,2019,2
+69,2020-04-28,Price Oracle Manipulation,Stablecoin,PancakeSwap,50019.54,2035.39,False,True,High,Front-running Susceptibility,4,4,3.28,False,2356.3340028187135,2020,4
+70,2019-02-20,Price Oracle Manipulation,Stablecoin,MakerDAO,36851.94,1606.55,False,True,High,Governance Weakness,4,4,10.74,False,2192.4910578209074,2019,2
+71,2020-02-28,Logic Error,Bridge,SushiSwap,1591064.24,295036.78,False,False,Low,Governance Weakness,1,1,3.07,False,439.2750853805909,2020,2
+72,2021-02-01,Liquidation Exploit,Bridge,Rari Capital,137508.93,16710.39,False,False,Low,Front-running Susceptibility,3,3,51.83,False,722.8515401770887,2021,2
+73,2019-10-12,Access Control Violation,Insurance,Balancer,3600986.14,1365031.33,False,False,High,Reentrancy Vulnerability,2,2,4.41,False,163.80233353154352,2019,10
+74,2019-12-22,Access Control Violation,Bridge,Balancer,80029.02,23564.93,True,False,Medium,Economic Design Flaw,3,3,0.91,False,239.60051650836613,2019,12
+75,2019-11-06,Reentrancy Attack,Insurance,MakerDAO,38111.07,5773.56,True,False,High,Economic Design Flaw,1,1,1.18,False,559.9995497492449,2019,11
+76,2019-11-11,Logic Error,Insurance,PancakeSwap,5164.36,820.72,False,False,Low,Governance Weakness,2,2,6.88,False,528.6034172224114,2019,11
+77,2020-08-12,MEV Attack,Lending Protocol,Synthetix,593230.17,61344.43,False,False,Medium,Smart Contract Logic Error,3,3,37.07,False,867.0340072601985,2020,8
+78,2019-11-19,Flash Loan Attack,Bridge,Cream,84355.04,3394.5,True,True,Low,Reentrancy Vulnerability,5,5,1.2,False,2384.348107789722,2019,11
+79,2019-02-05,Front-running,Lending Protocol,Synthetix,11043.05,2888.67,True,False,High,Economic Design Flaw,3,3,0.1,False,282.1906999761218,2019,2
+80,2021-01-16,Liquidation Exploit,Stablecoin,BadgerDAO,40088.09,15402.57,False,True,Medium,Reentrancy Vulnerability,5,5,19.51,True,160.25843359688693,2021,1
+81,2019-01-23,Reentrancy Attack,DEX,BadgerDAO,58599.67,26988.87,True,False,High,Composability Risk,1,1,1.47,True,117.12097909326722,2019,1
+82,2018-04-21,Price Oracle Manipulation,Yield Aggregator,BadgerDAO,14225.12,2875.75,True,False,Medium,Smart Contract Logic Error,3,3,1.32,False,394.52055270704795,2018,4
+83,2018-11-10,Price Oracle Manipulation,Derivatives,MakerDAO,5822.6,817.12,False,False,Medium,Governance Weakness,1,1,13.96,False,611.8271158265292,2018,11
+84,2021-03-02,Liquidation Exploit,Synthetic Assets,BadgerDAO,13596.47,996.13,False,True,Low,Economic Design Flaw,2,2,3.76,False,1263.660706226871,2021,3
+85,2019-10-31,Reentrancy Attack,Yield Aggregator,Yearn,492959.75,69425.52,False,False,Critical,Price Oracle Vulnerability,3,3,1.55,False,610.0467515871455,2019,10
+86,2020-03-23,Smart Contract Bug,DEX,PancakeSwap,93381.48,28647.05,True,False,Critical,Reentrancy Vulnerability,1,1,1.21,False,225.96452463605723,2020,3
+87,2019-03-10,Price Oracle Manipulation,Bridge,Yearn,335393.26,99969.9,False,True,Medium,Reentrancy Vulnerability,3,3,0.59,False,235.49188813944858,2019,3
+88,2018-07-06,Smart Contract Bug,Bridge,bZx,3119225.83,611566.72,False,False,Medium,Economic Design Flaw,3,3,1.67,False,410.0378466672506,2018,7
+89,2018-01-29,Reentrancy Attack,Derivatives,Harvest,100180.18,6164.98,False,False,Medium,Smart Contract Logic Error,1,1,5.9,False,1524.7405927362724,2018,1
+90,2018-03-24,Smart Contract Bug,Derivatives,Indexed,95713.66,15272.75,False,False,Low,Economic Design Flaw,1,1,2.38,False,526.6611670349456,2018,3
+91,2019-08-06,MEV Attack,Bridge,Venus,4207.47,374.72,True,False,Low,Insufficient Validation,3,3,1.72,False,1020.108059193016,2019,8
+92,2019-04-11,Access Control Violation,Yield Aggregator,SushiSwap,601724.88,172649.69,True,False,Low,Governance Weakness,2,2,1.04,False,248.52214028220797,2019,4
+93,2020-11-08,Access Control Violation,Bridge,Indexed,262381.21,48783.81,False,False,High,Insufficient Validation,2,2,17.81,True,437.8358755522467,2020,11
+94,2020-02-03,Reentrancy Attack,Stablecoin,Alpha Homora,9144.56,1404.7,True,False,High,Front-running Susceptibility,2,2,1.27,True,550.6053923312228,2020,2
+95,2019-04-19,Liquidation Exploit,Stablecoin,bZx,461671.48,148403.71,False,False,High,Reentrancy Vulnerability,1,1,3.39,False,211.09018035883093,2019,4
+96,2019-05-04,Flash Loan Attack,Lending Protocol,Aave,42388.46,5928.12,True,True,Medium,Access Control Issue,7,7,1.34,False,614.9367865720376,2019,5
+97,2019-03-19,Flash Loan Attack,Yield Aggregator,SushiSwap,41296.31,7548.38,True,True,High,Front-running Susceptibility,5,5,0.7,False,447.02916001049095,2019,3
+98,2018-11-27,Reentrancy Attack,Insurance,Inverse Finance,70977.43,22983.83,False,False,Low,Reentrancy Vulnerability,1,1,2.66,False,208.80554696293157,2018,11
+99,2018-07-11,Price Oracle Manipulation,DEX,SushiSwap,32505.21,7736.89,False,False,Medium,Price Oracle Vulnerability,2,2,197.92,False,320.0913944240613,2018,7
+100,2020-04-01,Smart Contract Bug,Synthetic Assets,Uniswap,42232.74,8689.17,False,False,High,Front-running Susceptibility,2,2,7.12,False,385.99440517274115,2020,4
+101,2019-12-08,Flash Loan Attack,Stablecoin,Aave,168088.46,258.12,True,True,Critical,Reentrancy Vulnerability,3,3,0.56,False,64769.35010805804,2019,12
+102,2018-03-11,Price Oracle Manipulation,Lending Protocol,Aave,2335.97,314.88,True,True,High,Access Control Issue,5,5,1.24,False,639.8284158541217,2018,3
+103,2020-06-06,Front-running,Insurance,bZx,7688.59,1784.98,True,False,Medium,Governance Weakness,2,2,0.36,False,330.55297371751084,2020,6
+104,2019-09-03,Front-running,Bridge,bZx,41124.3,5736.24,True,False,Low,Price Oracle Vulnerability,3,3,0.54,False,616.8133109299944,2019,9
+105,2020-07-20,Access Control Violation,Bridge,Inverse Finance,11077.54,2520.3,False,False,High,Price Oracle Vulnerability,1,1,11.44,False,339.3979296394717,2020,7
+106,2018-11-12,Price Oracle Manipulation,Bridge,PancakeSwap,12461.06,1751.23,True,False,Medium,Access Control Issue,1,1,1.48,False,611.2114277235295,2018,11
+107,2019-02-10,Flash Loan Attack,Bridge,Uniswap,159422.08,3497.03,True,True,High,Access Control Issue,4,4,0.83,False,4457.510370122611,2019,2
+108,2018-09-08,Reentrancy Attack,Lending Protocol,Harvest,7508.36,1665.9,True,False,Low,Reentrancy Vulnerability,2,2,0.15,False,350.49853020577115,2018,9
+109,2020-01-30,Reentrancy Attack,DEX,Synthetix,49387.08,5316.18,False,False,Critical,Insufficient Validation,1,1,36.92,False,828.8397233119812,2020,1
+110,2018-09-29,Price Oracle Manipulation,Stablecoin,Balancer,2948.85,727.26,False,False,Critical,Smart Contract Logic Error,1,1,29.06,False,305.0545134979266,2018,9
+111,2020-04-25,Front-running,Derivatives,PancakeSwap,9796.4,3510.87,True,False,Critical,Access Control Issue,3,3,1.68,False,178.97957498426763,2020,4
+112,2019-06-10,MEV Attack,Stablecoin,bZx,1090912.08,148148.2,True,False,Medium,Composability Risk,1,1,1.49,False,636.361100836184,2019,6
+113,2018-12-06,Governance Attack,Stablecoin,MakerDAO,538547.77,161242.24,True,False,Critical,Governance Weakness,1,1,0.03,False,233.99773534692062,2018,12
+114,2018-08-01,Reentrancy Attack,Derivatives,Curve,71399.76,24241.24,False,False,Medium,Economic Design Flaw,2,2,91.99,True,194.530373430838,2018,8
+115,2018-07-06,MEV Attack,Yield Aggregator,MakerDAO,91766.46,6917.1,True,False,Low,Composability Risk,2,2,1.2,False,1226.483572079039,2018,7
+116,2018-07-20,Logic Error,Stablecoin,SushiSwap,11525.37,2827.27,True,False,Medium,Front-running Susceptibility,2,2,1.29,False,307.5413592054507,2018,7
+117,2018-10-23,Smart Contract Bug,Derivatives,bZx,32613.92,4338.12,False,False,Medium,Price Oracle Vulnerability,2,2,3.35,False,651.6482604767787,2018,10
+118,2019-06-01,Price Oracle Manipulation,Lending Protocol,Venus,16441.8,3173.92,True,False,Critical,Composability Risk,1,1,0.02,True,417.8965139279099,2019,6
+119,2019-02-12,Reentrancy Attack,Stablecoin,Balancer,4544804.61,2220935.09,False,False,Medium,Front-running Susceptibility,1,1,2.61,False,104.63468671896817,2019,2
+120,2019-07-13,MEV Attack,Stablecoin,SushiSwap,17566.46,3906.96,True,False,Low,Insufficient Validation,1,1,0.11,False,349.5301896641726,2019,7
+121,2018-11-12,MEV Attack,Derivatives,Rari Capital,3356.2,373.74,True,False,Low,Reentrancy Vulnerability,3,3,0.51,False,795.8744729679245,2018,11
+122,2019-01-07,Front-running,Lending Protocol,bZx,19458.29,5217.03,True,False,Critical,Front-running Susceptibility,2,2,0.2,False,272.92407287807856,2019,1
+123,2019-01-16,Flash Loan Attack,Derivatives,Venus,99168.63,4972.56,True,True,Critical,Reentrancy Vulnerability,7,7,1.51,True,1893.936536404507,2019,1
+124,2020-01-25,Logic Error,Bridge,Alpha Homora,1097378.66,503860.42,False,False,Medium,Governance Weakness,3,3,2.45,False,117.79394421585205,2020,1
+125,2018-09-01,Price Oracle Manipulation,DEX,Harvest,365838.28,88311.57,False,False,Medium,Reentrancy Vulnerability,2,2,37.34,False,314.25504885657836,2018,9
+126,2020-03-14,Logic Error,Lending Protocol,Compound,9194510.88,3854062.01,False,False,High,Governance Weakness,3,3,2.24,False,138.56672441896586,2020,3
+127,2018-11-02,Logic Error,Stablecoin,Synthetix,39530.6,3631.43,True,False,High,Economic Design Flaw,3,3,0.38,False,988.2962644841056,2018,11
+128,2018-05-27,Reentrancy Attack,Synthetic Assets,Balancer,37278.71,10154.56,False,False,Medium,Economic Design Flaw,2,2,5.16,True,267.08669930560205,2018,5
+129,2018-08-07,MEV Attack,Insurance,Alpha Homora,13582.25,3992.37,True,False,Low,Smart Contract Logic Error,2,2,0.64,True,240.14504040447045,2018,8
+130,2018-07-24,Flash Loan Attack,Bridge,Uniswap,4912.33,331.89,True,True,High,Reentrancy Vulnerability,5,5,0.47,False,1375.962029499234,2018,7
+131,2018-10-01,Flash Loan Attack,Derivatives,Aave,67497.12,8645.64,True,True,High,Reentrancy Vulnerability,2,2,0.09,False,680.6283134257932,2018,10
+132,2018-12-29,Access Control Violation,DEX,Rari Capital,395799.38,69931.63,False,False,Low,Governance Weakness,1,1,3.35,False,465.97382366428945,2018,12
+133,2019-04-22,Governance Attack,Derivatives,Uniswap,8238.27,3664.03,False,False,High,Governance Weakness,1,1,9.24,False,124.80770962311358,2019,4
+134,2018-11-24,Liquidation Exploit,Derivatives,MakerDAO,5480.6,505.51,False,False,High,Composability Risk,1,1,10.57,True,982.2293735562971,2018,11
+135,2018-11-11,Flash Loan Attack,Derivatives,Fortress,137681.84,7026.34,True,True,High,Reentrancy Vulnerability,7,7,1.58,False,1859.2454612983006,2018,11
+136,2020-09-24,Price Oracle Manipulation,Insurance,Yearn,28283.17,609.0,False,False,Medium,Price Oracle Vulnerability,1,1,5.31,False,4536.749180327869,2020,9
+137,2018-04-08,Flash Loan Attack,Insurance,Alpha Homora,83332.16,1080.26,True,True,Critical,Price Oracle Vulnerability,7,7,0.8,True,7607.041784584652,2018,4
+138,2020-04-17,MEV Attack,Derivatives,bZx,121353.27,17071.14,False,False,Low,Composability Risk,3,3,8.76,False,610.8322096702582,2020,4
+139,2019-04-16,Smart Contract Bug,Synthetic Assets,Curve,582688.74,96681.61,True,False,High,Smart Contract Logic Error,2,2,0.24,False,502.68308850991923,2019,4
+140,2019-12-01,Smart Contract Bug,Lending Protocol,Balancer,758940.21,159109.6,False,False,High,Front-running Susceptibility,2,2,43.13,True,376.9897228720148,2019,12
+141,2018-04-05,Front-running,Derivatives,Aave,68762.09,34110.71,True,False,High,Access Control Issue,3,3,0.98,False,101.58206668619074,2018,4
+142,2018-02-25,Smart Contract Bug,Insurance,PancakeSwap,5346.64,2165.62,False,False,High,Access Control Issue,3,3,1.43,False,146.8194699578145,2018,2
+143,2018-12-02,Liquidation Exploit,Lending Protocol,SushiSwap,3293.34,1121.66,True,False,Critical,Access Control Issue,1,1,1.04,False,193.44057862576383,2018,12
+144,2018-11-20,Flash Loan Attack,Bridge,Curve,10431.63,5802.22,True,True,Medium,Price Oracle Vulnerability,6,6,1.94,False,79.77312595421161,2018,11
+145,2019-02-28,Price Oracle Manipulation,Derivatives,Venus,20725.96,988.92,False,True,Medium,Access Control Issue,7,7,1.26,False,1993.8015193146925,2019,2
+146,2018-09-23,Price Oracle Manipulation,Lending Protocol,Synthetix,15855.41,1548.7,True,True,Low,Economic Design Flaw,5,5,1.66,False,923.1922307543394,2018,9
+147,2020-01-25,Smart Contract Bug,Derivatives,Inverse Finance,12876.17,4240.09,True,False,Medium,Economic Design Flaw,1,1,1.42,False,203.62878410974537,2020,1
+148,2020-02-06,Reentrancy Attack,Insurance,PancakeSwap,113363.5,7426.17,False,False,Critical,Reentrancy Vulnerability,2,2,141.44,False,1426.348528443539,2020,2
+149,2018-08-03,Liquidation Exploit,Derivatives,Rari Capital,20285.45,8568.24,False,False,Critical,Front-running Susceptibility,1,1,11.34,False,136.73569651451004,2018,8
+150,2019-10-12,Front-running,Insurance,Venus,110357.63,23332.03,True,False,Medium,Composability Risk,2,2,1.92,True,372.97170577503226,2019,10
+151,2018-09-06,Smart Contract Bug,Lending Protocol,BadgerDAO,62671.01,24739.52,False,False,High,Composability Risk,3,3,43.54,False,153.31727061516898,2018,9
+152,2019-07-23,Governance Attack,Derivatives,MakerDAO,1286.37,108.81,False,False,Critical,Governance Weakness,2,2,10.18,True,1072.361351425189,2019,7
+153,2018-06-22,Smart Contract Bug,Insurance,bZx,176115.64,56633.84,False,False,High,Governance Weakness,3,3,7.65,False,210.9687252581627,2018,6
+154,2019-05-11,Front-running,Yield Aggregator,BadgerDAO,10535.92,1204.19,True,False,Medium,Insufficient Validation,3,3,0.58,True,774.2953393240899,2019,5
+155,2018-11-20,Flash Loan Attack,DEX,Inverse Finance,6077.36,1018.92,True,True,Medium,Smart Contract Logic Error,5,5,1.15,False,495.96438936387165,2018,11
+156,2021-05-29,Front-running,Lending Protocol,Compound,3701.12,1310.68,True,False,Medium,Economic Design Flaw,1,1,0.56,True,182.24262015125638,2021,5
+157,2019-07-17,MEV Attack,Stablecoin,Venus,96242.28,14246.81,True,False,High,Access Control Issue,1,1,0.11,False,575.4952515509401,2019,7
+158,2018-12-20,Front-running,Derivatives,Compound,34568.96,2287.51,True,False,Critical,Reentrancy Vulnerability,2,2,1.48,False,1410.5881119156131,2018,12
+159,2019-08-04,Flash Loan Attack,Derivatives,Uniswap,31095.19,998.67,True,True,Medium,Governance Weakness,3,3,0.05,True,3010.6455130192967,2019,8
+160,2022-01-18,MEV Attack,Bridge,PancakeSwap,134453.3,16849.39,True,False,Medium,Price Oracle Vulnerability,2,2,1.72,False,697.9298995453516,2022,1
+161,2019-07-04,Liquidation Exploit,Bridge,Compound,423245.62,129361.48,False,False,High,Access Control Issue,1,1,131.43,False,227.17880795111535,2019,7
+162,2019-02-12,Price Oracle Manipulation,Bridge,Uniswap,8691.48,237.43,False,False,Critical,Insufficient Validation,1,1,273.44,False,3545.7157236924877,2019,2
+163,2019-08-16,Price Oracle Manipulation,DEX,Balancer,11041.21,994.91,False,False,Critical,Price Oracle Vulnerability,1,1,27.03,False,1008.7558112680865,2019,8
+164,2020-10-24,Front-running,DEX,Alpha Homora,1748.32,686.2,True,False,Critical,Economic Design Flaw,2,2,0.56,False,154.55762514551802,2020,10
+165,2020-01-06,Price Oracle Manipulation,Stablecoin,Harvest,754215.72,192067.37,False,False,High,Governance Weakness,1,1,7.94,False,292.6813769492603,2020,1
+166,2019-12-20,Logic Error,Yield Aggregator,Balancer,27877.69,13232.58,False,False,Medium,Smart Contract Logic Error,2,2,2.82,False,110.66627473442561,2019,12
+167,2019-05-10,Price Oracle Manipulation,Bridge,Inverse Finance,3165.58,42.77,True,True,Critical,Economic Design Flaw,3,3,0.65,False,7134.589901759195,2019,5
+168,2018-11-19,Reentrancy Attack,Stablecoin,Synthetix,342556.53,170238.52,True,False,High,Price Oracle Vulnerability,3,3,0.79,False,101.22092097064186,2018,11
+169,2019-02-21,Smart Contract Bug,Yield Aggregator,Fortress,53188.5,22938.72,False,False,High,Reentrancy Vulnerability,3,3,0.75,True,131.8663872096085,2019,2
+170,2019-04-01,Logic Error,Stablecoin,PancakeSwap,16578.79,3263.57,False,False,Low,Insufficient Validation,3,3,62.2,False,407.8705618197803,2019,4
+171,2019-08-15,Price Oracle Manipulation,Bridge,bZx,1656916.37,322191.22,False,True,High,Price Oracle Vulnerability,4,4,2.77,False,414.2636187801184,2019,8
+172,2020-08-07,Logic Error,Synthetic Assets,Cream,1117702.3,265403.58,False,False,Low,Composability Risk,3,3,32.87,True,321.13188099466856,2020,8
+173,2018-10-26,Liquidation Exploit,Stablecoin,Inverse Finance,5648.3,925.0,True,True,Medium,Governance Weakness,5,5,1.97,False,510.0755939524838,2018,10
+174,2021-07-04,MEV Attack,DEX,Aave,58435.28,5609.93,True,False,High,Governance Weakness,1,1,1.03,False,941.4722693029496,2021,7
+175,2018-03-31,Access Control Violation,Synthetic Assets,bZx,98056.46,6264.44,True,False,Low,Governance Weakness,2,2,1.33,False,1465.0530529380221,2018,3
+176,2019-10-17,MEV Attack,Lending Protocol,Uniswap,72490.45,1062.56,True,False,Low,Price Oracle Vulnerability,2,2,1.69,True,6715.92481853398,2019,10
+177,2018-08-12,MEV Attack,Stablecoin,Compound,22357.04,991.82,False,False,High,Access Control Issue,3,3,9.78,False,2151.9731673415117,2018,8
+178,2019-02-03,Flash Loan Attack,Insurance,Uniswap,9495.73,6279.93,True,True,Medium,Price Oracle Vulnerability,2,2,0.05,False,51.1994242890782,2019,2
+179,2019-09-11,Access Control Violation,Stablecoin,Compound,4126.62,311.41,False,False,Critical,Reentrancy Vulnerability,2,2,47.17,False,1221.2189110463812,2019,9
+180,2019-09-14,Logic Error,Bridge,Inverse Finance,21143.02,10353.67,True,False,Medium,Front-running Susceptibility,1,1,0.39,False,104.19791263265753,2019,9
+181,2019-07-01,Reentrancy Attack,Derivatives,Indexed,23279.12,8389.81,True,False,Medium,Governance Weakness,3,3,0.87,False,177.44782684865942,2019,7
